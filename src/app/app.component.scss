@@ -1,3 +1,4 @@
+
 .login-page {
   background: url('./../assets/test.jpg') no-repeat center center / cover;
   height: 100vh;
@@ -5,6 +6,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  @media (max-width: 768px) {
+    justify-content: center;
+    padding: 1rem;
+}
 }
 
 .login-container {
